@@ -1,0 +1,11 @@
+Inicie um projeto Node
+
+npm init --yes
+
+Instale Cypress
+
+npm install -D cypress
+
+Abrir o Cypress com o npx cypress open 
+
+Para abrir em formato de relatório também é possível com o npx cypress run
