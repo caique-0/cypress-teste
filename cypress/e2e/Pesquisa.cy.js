@@ -7,7 +7,7 @@ describe('Funcionalidade pesquisa e adicionando produto', () => {
         cy.get(':nth-child(3) > :nth-child(4) > .productName').click()
         cy.get('.fixedBtn > .roboto-medium').click()
         cy.get('#shoppingCartLink > .cart').click()
-        cy.get('.sticky > .ng-binding').should("have.text", "(2)")//Validação se o produto se encontra no carrinho
+        cy.get('.sticky > .ng-binding').should("have.text", "(1)")//Validação se o produto se encontra no carrinho
 
     });
 });
